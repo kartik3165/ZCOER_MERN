@@ -1,0 +1,45 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+:root {
+    --border_color : rgb(43, 204, 225);
+}
+
+input,textarea , select {
+    background-color: rgb(31, 30, 30);
+    color: var(--border_color);
+    padding: 4px;
+    accent-color: var(--border_color);
+}
+
+label:hover {
+    color: var(--border_color);
+}
+
+input {
+    border: 2px solid white;
+
+}
+
+button {
+    background-color: var(--border_color);
+    padding: 8px;
+    width: 180px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+input[type="radio"]:checked + label{
+    color: var(--border_color);
+}
+
+input[type="radio"] + label{
+    color: red;
+
+}
+
+.info:hover {
+    color: var(--border_color);
+}

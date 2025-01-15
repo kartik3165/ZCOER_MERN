@@ -1,0 +1,58 @@
+* {
+    background-color: #fefefe;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    background-color: white;
+    border: 2px solid red;
+    text-align: center;
+    margin: 150px 150px 150px 150px;
+}
+
+.main .info {
+    text-align: left;
+}
+
+.main h2 , h4 , p {
+    padding: 3px;
+}
+
+.edu h3 , p , .skill h3 , .project h3 {
+    text-align: left;
+    padding: 4px;
+}
+
+.edu .score {
+    margin-left: 50px;
+}
+
+.score span {
+    color: blue;
+    text-decoration: underline;
+}
+
+.gender h3 {
+    text-align: left;  
+}
+
+.gender input {
+    margin-right: 10px;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+} 
+
+.project strong {
+    font-size: 20px;
+    text-align: left;
+    padding: 4px;
+}
+
+.info2 p {
+    margin-left: 20px;
+}
+

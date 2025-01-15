@@ -1,0 +1,15 @@
+* {
+    background-color: black;
+    text-align: center;
+}
+
+table {
+    margin: 100px;
+    color: white;
+    font-size: 1rem;
+}
+
+table th , table tr td {
+    border: 2px solid red;
+}
+

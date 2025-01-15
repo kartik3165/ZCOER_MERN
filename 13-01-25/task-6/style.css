@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: max-content;
+    height: max-content;
+    background-color: black;
+    padding: 20px;
+}
+
+.all-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.opt-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.hold {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+
+.hold button {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.opt-btn button {
+    width: max-content;
+    min-width: 30px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.opt {
+    width: 25%;
+}
+
+input {
+    width: max-content;
+    height: 25px;
+    margin-bottom: 5px;
+}

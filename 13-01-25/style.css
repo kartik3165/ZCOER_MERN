@@ -1,0 +1,19 @@
+* {
+    background-color: black;
+}
+
+:root {
+    --main_color : yellow;
+    --border_color : red ;
+}
+
+.head {
+    color: var(--main_color);
+    text-align: center;
+    border: 10px var(--border_color) solid ;
+    border-radius: 50px;
+    margin: 100px 50px 30px;
+    padding: 25px;
+}
+
+
