@@ -1,0 +1,173 @@
+* {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    border: 2px double white;
+    padding: 8px;
+
+}
+
+.edu , .project , .news-post{
+    position: relative;
+    animation: slideright 3s forwards;
+}
+
+.skill , .form-div{
+    position: relative;
+    animation: slideleft 3s forwards;
+}
+
+.main .head {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .head img {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+}
+
+.main .head .info {
+    background-color: white;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main .head .info p  {
+    background-color: white;
+    margin: 10px 0px 10px;
+}
+
+.main .head .info p a {
+    background-color: white;
+    margin: 10px 10px 0px 0px ;
+}
+
+.edu , .heading , .title , .sub-info span , p{
+    background-color: white;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+.sub-info span ,a {
+    margin: 0 0 50px 12px;
+}
+
+.heading {
+    margin-top: 10px;
+}
+
+.skill-grid #content {
+    display: flex;
+    justify-content: center;
+}
+
+.skill button {
+    background-color: aqua;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.skill-grid ul {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.skill-grid #content li {
+    border-radius: 50px;
+    padding: 3px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(194, 194, 194);
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    animation: popup 2s infinite;
+
+}
+
+.skill-grid #content li:hover {
+    background-color: cyan;
+    font-weight: 700;
+}
+
+@keyframes slideright {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left : 0%
+    }
+}
+
+@keyframes slideleft {
+    0% {
+        right: 100%;
+    }
+    100% {
+        right: 0%
+    }
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.form-div {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-div input {
+    margin: 12px;
+    padding: 3px;
+}
+
+.form-div button {
+    margin: 15px;
+    padding: 8px;
+    background-color: cyan;
+    border-radius: 50px;
+}
+
+.news-post , form {
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+}
+
+.news-post label , input {
+    padding: 4px;
+    margin: 5px;
+}
+
+.news-post label {
+    background-color: black;
+    color: white;
+}
+
+.news-post button {
+    padding: 8px;
+    margin: 8px;
+    background-color: cyan;
+    border-radius: 50px;
+}
+
+table {
+    text-align: center;
+    width: max-content;
+}
