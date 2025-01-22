@@ -10,8 +10,8 @@ app.get("/",(req,res) => {
     res.send("Hello Good Morning")
 })
 
-app.post("" ,(req,res) => {
-    
+app.post("/port" ,(req,res) => {
+    const [id , data] = req.body().    
 })
 
 app.listen(port , () => {
